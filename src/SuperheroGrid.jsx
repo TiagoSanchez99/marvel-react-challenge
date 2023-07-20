@@ -4,7 +4,7 @@ import { useState,useEffect } from 'react'
 
 
 
-export function SuperherosGrid(data) {
+export function SuperherosGrid() {
 
     const [characters,setCharacter] = useState();
    
