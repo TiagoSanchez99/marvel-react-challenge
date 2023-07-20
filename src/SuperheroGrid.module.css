@@ -1,0 +1,12 @@
+.superheroGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,230px);
+    gap: 20px;
+    padding: 40px;
+}
+
+@media (max-width: 560px) {
+    .superheroGrid{
+        grid-template-columns: 100%;
+    }    
+}
