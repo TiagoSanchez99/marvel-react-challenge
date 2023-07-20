@@ -1,5 +1,6 @@
 import { SuperherosGrid } from "./SuperheroGrid";
-import styles from "./App.module.css"
+// import styles from "./App.module.css"
+import { Search } from "./Search";
 
 
 
@@ -8,7 +9,7 @@ export function App(){
     return(
         <div>
             <header>
-                <h1 className={styles.title}>Superheros</h1>
+                <Search/>
             </header>
             <main>
                 <SuperherosGrid/>
