@@ -14,11 +14,13 @@ export function Search(){
 
     return(
         <>
+        <a href="https://marvel.com">
         <img
             src="https://1000marcas.net/wp-content/uploads/2021/07/Marvel-Comics-logo.png"
             alt={"NoImage"}
             className={styles.image}
         />
+        </a>
 
         <form className={styles.search}>
             <div className={styles.searchBox}>
