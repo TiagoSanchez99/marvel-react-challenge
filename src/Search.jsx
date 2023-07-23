@@ -1,6 +1,7 @@
 import styles from "./Search.module.css";
 import {FaSearch} from "react-icons/fa";
 import { useState } from "react";
+import { SuperherosGrid } from "./SuperheroGrid";
 
 export function Search(){
 
@@ -35,6 +36,8 @@ export function Search(){
                 </button>
             </div>
         </form>
+
+        <SuperherosGrid search={searchText}/>
         </>
     )
 }
