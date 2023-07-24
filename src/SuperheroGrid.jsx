@@ -25,7 +25,7 @@ export function SuperherosGrid({search}) {
 
         },[search]);
     console.log(characters);
-    //characters.sort(() => Math.random() - 0.5);
+    characters.sort(() => Math.random() - 0.5);
 
     return(
     <ul className={styles.superheroGrid}>
