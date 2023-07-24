@@ -8,10 +8,10 @@ export function SuperheroCard({charac}){
         <img 
             width={230} 
             height={345}
-            className="{styles.movieImage}" 
+            className="{styles.superheroImage}" 
             src={imageUrl} 
             alt={"NoImage"} 
         />
-        <div>{charac.name}</div>
+        <div className={styles.nombre}>{charac.name}</div>
         </li>
 }
